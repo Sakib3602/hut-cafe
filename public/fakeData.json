@@ -6,7 +6,7 @@
       "ingredients": ["4 salmon fillets", "1/4 cup unsalted butter", "2 cloves garlic, minced", "2 tablespoons lemon juice", "1 teaspoon lemon zest", "Salt and pepper to taste"],
       "preparing_time": "20 min",
       "calories": "280 calories",
-      "recipe_image": "../src/img/1.jpg"
+      "recipe_image": "https://i.ibb.co/6D9Wqj5/nicholas-grande-d9jc-PTRD9fo-unsplash.jpg"
     },
     {
       "recipe_id": 2,
@@ -15,7 +15,7 @@
       "ingredients": ["2 large tomatoes, sliced", "8 oz fresh mozzarella cheese, sliced", "1/4 cup fresh basil leaves", "2 tablespoons extra virgin olive oil", "Salt and pepper to taste"],
       "preparing_time": "15 min",
       "calories": "180 calories",
-      "recipe_image": "2"
+      "recipe_image": "https://i.ibb.co/hy1JxLS/melanie-andersen-Bz-Pld-Tqss-WU-unsplash.jpg"
     },
     {
       "recipe_id": 3,
@@ -24,7 +24,7 @@
       "ingredients": ["2 cups mixed vegetables (bell peppers, broccoli, carrots, snow peas)", "8 oz firm tofu, cubed", "3 tablespoons soy sauce", "2 cloves garlic, minced", "1 tablespoon sesame oil"],
       "preparing_time": "25 min",
       "calories": "220 calories",
-      "recipe_image": "../src/img/3.jpg"
+      "recipe_image": "https://i.ibb.co/cY4PgJt/sara-dubler-T-d-Y6-Azz-VXU-unsplash.jpg"
     },
     {
       "recipe_id": 4,
@@ -33,7 +33,7 @@
       "ingredients": ["8 oz spaghetti", "4 slices bacon, chopped", "2 cloves garlic, minced", "2 large eggs", "1/2 cup grated Parmesan cheese", "Salt and pepper to taste"],
       "preparing_time": "30 min",
       "calories": "350 calories",
-      "recipe_image": "../src/img/4.jpg"
+      "recipe_image": "https://i.ibb.co/0CNb1qw/louis-hansel-KQR3-ENYfrpw-unsplash.jpg"
     },
     {
       "recipe_id": 5,
@@ -42,7 +42,7 @@
       "ingredients": ["2 boneless, skinless chicken breasts", "1 head romaine lettuce, chopped", "1/2 cup Caesar dressing", "1/4 cup grated Parmesan cheese", "1 cup croutons"],
       "preparing_time": "25 min",
       "calories": "320 calories",
-      "recipe_image": "../src/img/5.jpg"
+      "recipe_image": "https://i.ibb.co/xSBwSVq/anh-nguyen-kc-A-c3f-3-FE-unsplash.jpg"
     },
     {
       "recipe_id": 6,
@@ -51,6 +51,6 @@
       "ingredients": ["1 can black beans, drained and rinsed", "1 can kidney beans, drained and rinsed", "1 can diced tomatoes", "1 bell pepper, diced", "1 onion, diced", "2 cloves garlic, minced", "2 tablespoons chili powder", "1 teaspoon cumin", "Salt and pepper to taste"],
       "preparing_time": "35 min",
       "calories": "250 calories",
-      "recipe_image": "../src/img/6.jpg"
+      "recipe_image": "https://i.ibb.co/sbzFNKW/zoshua-colah-20c49-Lo5-Ic-Y-unsplash.jpg"
     }
   ]
