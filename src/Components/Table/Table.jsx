@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 
-const Table = ({ nam1, time1, cals }) => {
+const Table = ({ nam1, time1, cals ,deleteTb}) => {
   return (
     <div>
       <div>
@@ -34,7 +34,7 @@ const Table = ({ nam1, time1, cals }) => {
                 <td>{cals[index]}</td>
 
                 <td>
-                  <button className="btn btn-active btn-accent">
+                  <button onClick={()=>deleteTb()} className="btn btn-active btn-accent">
                     Preparing
                   </button>
                 </td>
@@ -56,6 +56,7 @@ Table.propTypes = {
   nam1: PropTypes.array.isRequired,
   time1: PropTypes.array.isRequired,
   cals: PropTypes.array.isRequired,
+  deleteTb : PropTypes.func,
 };
 
 export default Table;
