@@ -21,8 +21,8 @@ const Hero =() => {
         id nisi.
       </p>
       <div className="space-x-9">
-      <button className="btn btn-primary">Get Started</button>
-      <button className="btn btn-primary">Get Started</button>
+      <button className="btn bg-[#0BE58A] rounded-3xl text-white border-none w-[181px] ">Get Started</button>
+      <button className="btn btn-outline rounded-3xl text-white w-[181px] " >Default</button>
       </div>
     </div>
   </div>

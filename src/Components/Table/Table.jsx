@@ -9,7 +9,7 @@ const Table = ({ nam1, time1, cals ,deleteTb}) => {
         </h1>
         <hr className="mt-4" />
       </div>
-      <div className="overflow-x-auto max-w-[480px] ">
+      <div className="overflow-x-auto max-w-[490px]  ">
         <table className="table">
           {/* head */}
           <thead className="">
@@ -34,7 +34,7 @@ const Table = ({ nam1, time1, cals ,deleteTb}) => {
                 <td>{cals[index]}</td>
 
                 <td>
-                  <button onClick={()=>deleteTb()} className="btn btn-active btn-accent">
+                  <button onClick={()=>deleteTb()} className="btn btn-active bg-[#0BE58A]">
                     Preparing
                   </button>
                 </td>

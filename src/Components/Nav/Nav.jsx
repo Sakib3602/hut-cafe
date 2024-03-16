@@ -4,22 +4,22 @@ const Nav = () => {
       <div className="navbar bg-base-100">
         <div className="navbar-start">
         
-          <a className="btn btn-ghost text-xl">daisyUI</a>
+          <a className=" text-[40px] font-[700]">Oro Cafe</a>
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1">
+          <ul className="menu menu-horizontal px-1 text-[16px] font-[600]">
             <li>
-              <a>Item 1</a>
+              <a>Home</a>
             </li>
             <li>
-              <a>Item 1</a>
+              <a>Recipes</a>
             </li>
             <li>
-              <a>Item 1</a>
+              <a>Cofee & Tea</a>
             </li>
             
             <li>
-              <a>Item 3</a>
+              <a>About</a>
             </li>
           </ul>
         </div>
