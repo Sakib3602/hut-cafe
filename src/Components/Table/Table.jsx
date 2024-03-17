@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 
-const Table = ({ nam1, time1, cals, deleteTb }) => {
+const Table = ({ nam1, time1, cals, deleteData }) => {
   return (
     <div>
       <div>
@@ -35,7 +35,7 @@ const Table = ({ nam1, time1, cals, deleteTb }) => {
 
                 <td>
                   <button
-                   
+                   onClick={()=>deleteData(e)}
                     className="btn btn-active bg-[#0BE58A]"
                   >
                     Preparing
@@ -51,6 +51,7 @@ const Table = ({ nam1, time1, cals, deleteTb }) => {
           Currently Cooking :{" "}
         </h1>
         <hr className="mt-4" />
+
       </div>
     </div>
   );

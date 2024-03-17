@@ -41,6 +41,16 @@ const MainSec = () => {
     setCals(newCal);
   }
 
+
+  function deleteData(e){
+    console.log("deleteData",e)
+
+    let deleteD = nam1.filter(item => item != e)
+    setNam(deleteD)
+
+
+
+  }
   
 
   return (
@@ -54,7 +64,7 @@ const MainSec = () => {
 
       <div>
         <Table
-         
+         deleteData={deleteData}
           nam1={nam1}
           time1={time1}
           cals={cals}
