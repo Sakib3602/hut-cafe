@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 
-const Table = ({ nam1, time1, cals ,deleteTb}) => {
+const Table = ({ nam1, time1, cals, deleteTb }) => {
   return (
     <div>
       <div>
@@ -34,7 +34,10 @@ const Table = ({ nam1, time1, cals ,deleteTb}) => {
                 <td>{cals[index]}</td>
 
                 <td>
-                  <button onClick={()=>deleteTb()} className="btn btn-active bg-[#0BE58A]">
+                  <button
+                   
+                    className="btn btn-active bg-[#0BE58A]"
+                  >
                     Preparing
                   </button>
                 </td>
@@ -44,9 +47,10 @@ const Table = ({ nam1, time1, cals ,deleteTb}) => {
         </table>
       </div>
       <div>
-        <h1 className="text-center text-[28px] font-[600]">Currently Cooking : </h1>
-        <hr className="mt-4"/>
-
+        <h1 className="text-center text-[28px] font-[600]">
+          Currently Cooking :{" "}
+        </h1>
+        <hr className="mt-4" />
       </div>
     </div>
   );
@@ -56,7 +60,7 @@ Table.propTypes = {
   nam1: PropTypes.array.isRequired,
   time1: PropTypes.array.isRequired,
   cals: PropTypes.array.isRequired,
-  deleteTb : PropTypes.func,
+  deleteTb: PropTypes.func,
 };
 
 export default Table;

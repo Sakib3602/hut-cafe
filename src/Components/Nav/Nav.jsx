@@ -3,7 +3,6 @@ const Nav = () => {
     <div>
       <div className="navbar bg-base-100">
         <div className="navbar-start">
-        
           <a className=" text-[40px] font-[700]">Oro Cafe</a>
         </div>
         <div className="navbar-center hidden lg:flex">
@@ -17,20 +16,20 @@ const Nav = () => {
             <li>
               <a>Cofee & Tea</a>
             </li>
-            
+
             <li>
               <a>About</a>
             </li>
           </ul>
         </div>
         <div className="navbar-end space-x-4">
-        <div className="form-control">
-  <input
-    type="text"
-    placeholder="Search"
-    className="input input-bordered w-24 md:w-auto"
-  />
-</div>
+          <div className="form-control">
+            <input
+              type="text"
+              placeholder="Search"
+              className="input input-bordered w-24 md:w-auto"
+            />
+          </div>
           <div
             tabIndex={0}
             role="button"

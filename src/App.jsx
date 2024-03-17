@@ -8,12 +8,12 @@ function App() {
   return (
     <>
       <div className="font-Lexend">
-      <div className="w-[85%] m-auto">
-        <Nav></Nav>
-        <Hero></Hero>
-        <Our></Our>
-        <MainSec></MainSec>
-      </div>
+        <div className="w-[85%] m-auto">
+          <Nav></Nav>
+          <Hero></Hero>
+          <Our></Our>
+          <MainSec></MainSec>
+        </div>
       </div>
     </>
   );
