@@ -8,21 +8,20 @@ const Hero = () => {
         }}
       >
         <div className="hero-content text-center text-neutral-content ">
-          <div className="w-[760px]">
-            <h1 className="mb-5 text-5xl font-bold">
-              Hello there, Lorem ipsum dolor sit amet consectetur.
+          <div className="w-full lg:w-[680px]">
+            <h1 className="mb-5 text-xl lg:text-5xl font-bold">
+              Hello there, Welcome To Our Cafe.
             </h1>
             <p className="mb-5">
-              Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-              excepturi exercitationem quasi. In deleniti eaque aut repudiandae
-              et a id nisi.
+              Indulge in our cafes charm, where each cup holds stories and
+              every sip sparks moments of warmth and connection.
             </p>
             <div className="space-x-9">
               <button className="btn bg-[#0BE58A] rounded-3xl text-white border-none w-[181px] ">
-                Get Started
+                Explore Now
               </button>
               <button className="btn btn-outline rounded-3xl text-white w-[181px] ">
-                Default
+                Our Feedback
               </button>
             </div>
           </div>

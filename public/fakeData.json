@@ -1,56 +1,97 @@
 [
-    {
-      "recipe_id": 1,
-      "recipe_name": "Grilled Salmon ",
-      "short_description": "A succulent grilled salmon dish with a tangy lemon butter sauce.",
-      "ingredients": ["4 salmon fillets", "1/4 cup unsalted butter", "2 cloves garlic, minced", "2 tablespoons lemon juice", "1 teaspoon lemon zest", "Salt and pepper to taste"],
-      "preparing_time": "20",
-      "calories": "280",
-      "recipe_image": "https://i.ibb.co/hf5CCy2/thomas-tucker-MNtag-e-XMKw-unsplash.jpg"
-    },
-    {
-      "recipe_id": 2,
-      "recipe_name": "Caprese Salad",
-      "short_description": "A refreshing Italian salad with fresh tomatoes, mozzarella, and basil.",
-      "ingredients": ["2 large tomatoes, sliced", "8 oz fresh mozzarella cheese, sliced", "1/4 cup fresh basil leaves", "2 tablespoons extra virgin olive oil", "Salt and pepper to taste"],
-      "preparing_time": "15",
-      "calories": "180",
-      "recipe_image": "https://i.ibb.co/4fgR4nC/4.jpg"
-    },
-    {
-      "recipe_id": 3,
-      "recipe_name": "Vegetable Stir-Fry",
-      "short_description": "A colorful and nutritious stir-fry loaded with fresh vegetables and tofu.",
-      "ingredients": ["2 cups mixed vegetables", "8 oz firm tofu, cubed", "3 tablespoons soy sauce", "2 cloves garlic, minced", "1 tablespoon sesame oil"],
-      "preparing_time": "25",
-      "calories": "220",
-      "recipe_image": "https://i.ibb.co/NZQ92Nt/premium-photo-1663852297522-d01619dc3e55.jpg"
-    },
-    {
-      "recipe_id": 4,
-      "recipe_name": "Spaghetti Carbonara",
-      "short_description": "A classic Italian pasta dish with creamy sauce, and Parmesan cheese.",
-      "ingredients": ["8 oz spaghetti", "4 slices bacon, chopped", "2 cloves garlic, minced", "2 large eggs", "1/2 cup grated Parmesan cheese", "Salt and pepper to taste"],
-      "preparing_time": "30",
-      "calories": "350",
-      "recipe_image": "https://i.ibb.co/NsyBm1m/premium-photo-1668095398227-c943ddb69d89.jpg"
-    },
-    {
-      "recipe_id": 5,
-      "recipe_name": "Chicken Caesar Salad",
-      "short_description": "A hearty salad featuring grilled chicken, crisp lettuce, and tangy Caesar dressing.",
-      "ingredients": ["2 boneless, skinless chicken breasts", "1 head romaine lettuce, chopped", "1/2 cup Caesar dressing", "1/4 cup grated Parmesan cheese", "1 cup croutons"],
-      "preparing_time": "25",
-      "calories": "320",
-      "recipe_image": "https://i.ibb.co/qn9t2TV/alaundra-alford-Bm-Rb-JBoud-Dw-unsplash.jpg"
-    },
-    {
-      "recipe_id": 6,
-      "recipe_name": "Vegetarian Chili",
-      "short_description": "A hearty and flavorful chili loaded with beans, vegetables, and spices.",
-      "ingredients": ["1 can black beans, drained and rinsed", "1 can diced tomatoes", "1 bell pepper, diced", "1 onion, diced", "2 cloves garlic, minced", "2 tablespoons chili powder", "1 teaspoon cumin", "Salt and pepper to taste"],
-      "preparing_time": "35",
-      "calories": "250",
-      "recipe_image": "https://i.ibb.co/CvHhhgx/2.jpg"
-    }
-  ]
+  {
+    "recipe_id": 1,
+    "recipe_name": "Grilled Salmon ",
+    "short_description": "A succulent grilled salmon dish with a tangy lemon butter sauce.",
+    "ingredients": [
+      "4 salmon fillets",
+      "1/4 cup unsalted butter",
+      "2 cloves garlic, minced",
+      "2 tablespoons lemon juice",
+      "1 teaspoon lemon zest",
+      "Salt and pepper to taste"
+    ],
+    "preparing_time": "20",
+    "calories": "280",
+    "recipe_image": "https://i.ibb.co/hf5CCy2/thomas-tucker-MNtag-e-XMKw-unsplash.jpg"
+  },
+  {
+    "recipe_id": 2,
+    "recipe_name": "Caprese Salad",
+    "short_description": "A refreshing Italian salad with fresh tomatoes, mozzarella, and basil.",
+    "ingredients": [
+      "2 large tomatoes, sliced",
+      "8 oz fresh mozzarella cheese, sliced",
+      "1/4 cup fresh basil leaves",
+      "2 tablespoons extra virgin olive oil",
+      "Salt and pepper to taste"
+    ],
+    "preparing_time": "15",
+    "calories": "180",
+    "recipe_image": "https://i.ibb.co/hXLBcvx/davide-cantelli-jpkfc5-d-DI-unsplash.jpg"
+  },
+  {
+    "recipe_id": 3,
+    "recipe_name": "Vegetable Stir-Fry",
+    "short_description": "A colorful and nutritious stir-fry loaded with fresh vegetables and tofu.",
+    "ingredients": [
+      "2 cups mixed vegetables",
+      "8 oz firm tofu, cubed",
+      "3 tablespoons soy sauce",
+      "2 cloves garlic, minced",
+      "1 tablespoon sesame oil"
+    ],
+    "preparing_time": "25",
+    "calories": "220",
+    "recipe_image": "https://i.ibb.co/NZQ92Nt/premium-photo-1663852297522-d01619dc3e55.jpg"
+  },
+  {
+    "recipe_id": 4,
+    "recipe_name": "Spaghetti Carbonara",
+    "short_description": "A classic Italian pasta dish with creamy sauce, and Parmesan cheese.",
+    "ingredients": [
+      "8 oz spaghetti",
+      "4 slices bacon, chopped",
+      "2 cloves garlic, minced",
+      "2 large eggs",
+      "1/2 cup grated Parmesan cheese",
+      "Salt and pepper to taste"
+    ],
+    "preparing_time": "30",
+    "calories": "350",
+    "recipe_image": "https://i.ibb.co/NsyBm1m/premium-photo-1668095398227-c943ddb69d89.jpg"
+  },
+  {
+    "recipe_id": 5,
+    "recipe_name": "Chicken Caesar Salad",
+    "short_description": "A hearty salad featuring grilled chicken, crisp lettuce, and tangy Caesar dressing.",
+    "ingredients": [
+      "2 boneless, skinless chicken breasts",
+      "1 head romaine lettuce, chopped",
+      "1/2 cup Caesar dressing",
+      "1/4 cup grated Parmesan cheese",
+      "1 cup croutons"
+    ],
+    "preparing_time": "25",
+    "calories": "320",
+    "recipe_image": "https://i.ibb.co/qn9t2TV/alaundra-alford-Bm-Rb-JBoud-Dw-unsplash.jpg"
+  },
+  {
+    "recipe_id": 6,
+    "recipe_name": "Vegetarian Chili",
+    "short_description": "A hearty and flavorful chili loaded with beans, vegetables, and spices.",
+    "ingredients": [
+      "1 can black beans, drained and rinsed",
+      "1 can diced tomatoes",
+      "1 bell pepper, diced",
+      "1 onion, diced",
+      "2 cloves garlic, minced",
+      "2 tablespoons chili powder",
+      "1 teaspoon cumin",
+      "Salt and pepper to taste"
+    ],
+    "preparing_time": "35",
+    "calories": "250",
+    "recipe_image": "https://i.ibb.co/ZST6g7j/alex-munsell-Yr4n8-O-3-UPc-unsplash.jpg"
+  }
+]

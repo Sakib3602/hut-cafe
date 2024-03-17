@@ -3,23 +3,23 @@ const Nav = () => {
     <div>
       <div className="navbar bg-base-100">
         <div className="navbar-start">
-          <a className=" text-[40px] font-[700]">Oro Cafe</a>
+          <a className=" text-[40px] text-[#4CCD99] font-[700]">Hut Cafe</a>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1 text-[16px] font-[600]">
             <li>
-              <a>Home</a>
+              <a className="text-[#007F73]">Home</a>
             </li>
             <li>
               <a>Recipes</a>
             </li>
             <li>
-              <a>Cofee & Tea</a>
-            </li>
-
-            <li>
               <a>About</a>
             </li>
+            <li>
+              <a>Search</a>
+            </li>
+
           </ul>
         </div>
         <div className="navbar-end space-x-4">
@@ -38,7 +38,7 @@ const Nav = () => {
             <div className="w-10 rounded-full">
               <img
                 alt="Tailwind CSS Navbar component"
-                src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg"
+                src="https://i.ibb.co/6Yn63W4/trashed-1662163552-IMG-20220803-WA0021.jpg"
               />
             </div>
           </div>
